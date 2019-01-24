@@ -1,0 +1,28 @@
+{
+  "name": "colornamify",
+  "version": "1.0.0",
+  "description": "Gives names to colors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reneroth/colornamify.git"
+  },
+  "keywords": [
+    "colors",
+    "names"
+  ],
+  "author": "René Roth <mail@reneroth.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reneroth/colornamify/issues"
+  },
+  "homepage": "https://github.com/reneroth/colornamify#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "hex-rgb-converter": "^0.0.2",
+    "mocha": "^5.2.0"
+  }
+}
