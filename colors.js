@@ -112,6 +112,7 @@ module.exports = {
   thistle:{r:216,g:191,b:216},
   tomato:{r:255,g:99,b:71},
   wheat:{r:245,g:222,b:179},
+  white:{r:255,g:255,b:255},
   whitesmoke:{r:245,g:245,b:245},
   yellowgreen:{r:154,g:205,b:50},
   
@@ -892,7 +893,6 @@ module.exports = {
   aztecgold:{r:195,g:153,b:83},
   blueberry:{r:69,g:112,b:230},
   bubblegum:{r:252,g:128,b:165},
-  coconut:{r:255,g:255,b:255},
   daffodil:{r:251,g:232,b:112},
   dirt:{r:158,g:91,b:64},
   eucalyptus:{r:41,g:171,b:135},
