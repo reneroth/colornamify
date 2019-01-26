@@ -1,6 +1,6 @@
 # colornamify
 ## Gives names to colors
-Do we still do that thing with -ify?
+Also available as a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=reneroth.colornamify-code)!
 
 ## Short Description
 There are only two real `problems` in computer science: Naming things, cache invalidation, and off-by-one errors. colornamify aims to partially solve `problems[0]` by giving names to to RGB colors.
