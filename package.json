@@ -1,6 +1,6 @@
 {
   "name": "colornamify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gives names to colors.",
   "main": "index.js",
   "scripts": {
