@@ -23,9 +23,17 @@ let name = colornamify(color)
 - We are currently at **6691 unique color names**, yay!
 - Invalid input will result `null` and not throw an error.
 - Lookups will be cached for performance.
+- Library uses a naive searching algorithm.
+- Self-contained, needs no dependencies.
 - Conversion between or accepting different color formats is not in the scope - [various solutions](https://www.npmjs.com/search?q=color%20conversion) already exist for this.
 - Color names are taken from many sources, check the comments in colors.js
 - With the exception of the default CSS named colors, the value of a color is not guaranteed to match the source from which the name is taken. This means do not use this library to *precisely identify* colors.
 
+## Todo
+- Check if we can use a more performant algorithm for lookup.
+
 ## Shoutout
 Big "Thank You!" goes out to [Chirag Mehta](http://chir.ag/) whose work gave me some great ideas on my search for color naming solutions.
+
+## License
+MIT
