@@ -1,5 +1,6 @@
 # colornamify
 ## Gives names to colors
+`npm install colornamify`  
 Also available as a [Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=reneroth.colornamify-code)!
 
 ## Short Description
