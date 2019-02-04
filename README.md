@@ -22,7 +22,7 @@ let name = colornamify(color)
 
 ## Notes
 - We are currently at **6691 unique color names**, yay!
-- Invalid input will result `null` and not throw an error.
+- Invalid input will return `null` and not throw an error.
 - Lookups will be cached for performance.
 - Library uses a naive searching algorithm.
 - Self-contained, needs no dependencies.
