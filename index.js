@@ -16,10 +16,9 @@ function getSquareDistance(color1, color2) {
 }
 
 // convert rgb object to simple string for lookup object
+// eg {r:45, g: 0, b: 155} to 'r45g0b155'
 function colorToId(color) {
-  return 'r' + color.r +
-         'g' + color.g +
-         'b' + color.b
+  return `r${color.r}g${color.g}b${color.b}`
 }
 
 // checks that color is an object containing r, g & b attributes

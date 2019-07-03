@@ -1,6 +1,6 @@
 {
   "name": "colornamify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gives names to colors.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/reneroth/colornamify#readme",
   "devDependencies": {
-    "assert": "^1.4.1",
     "hex-rgb-converter": "^0.0.2",
-    "mocha": "^5.2.0"
+    "mocha": "^6.1.4"
   }
 }

@@ -4,7 +4,7 @@ require('mocha')
 const assert = require('assert')
 const converter = require('hex-rgb-converter')
 
-const getColorName = require('./index.js')
+const colornamify = require('./index.js')
 
 describe('gets the right name', function() {
   let colors = {
@@ -48,7 +48,7 @@ describe('gets the right name', function() {
     if (colors.hasOwnProperty(key)) {
       let rgb = converter.toRGB(key)
       it(key + ' should be named ' + colors[key], () => {
-        assert.equal(getColorName({
+        assert.equal(colornamify({
           r: rgb[0],
           g: rgb[1],
           b: rgb[2],
